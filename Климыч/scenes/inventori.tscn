@@ -1,0 +1,71 @@
+[gd_scene load_steps=3 format=3 uid="uid://cylvv65lgjljw"]
+
+[ext_resource type="Texture2D" uid="uid://co3h4gxl65as5" path="res://art/InventoryRect.png" id="1_8vh16"]
+[ext_resource type="PackedScene" uid="uid://bg8v83ls2mmqr" path="res://scenes/slot.tscn" id="2_55ghd"]
+
+[node name="Inventori" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="NinePatchRect" type="NinePatchRect" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("1_8vh16")
+patch_margin_left = 6
+patch_margin_top = 6
+patch_margin_right = 6
+patch_margin_bottom = 6
+
+[node name="GridContainer" type="GridContainer" parent="NinePatchRect"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+columns = 15
+
+[node name="slot" parent="NinePatchRect/GridContainer" instance=ExtResource("2_55ghd")]
+layout_mode = 2
+
+[node name="slot2" parent="NinePatchRect/GridContainer" instance=ExtResource("2_55ghd")]
+layout_mode = 2
+
+[node name="slot3" parent="NinePatchRect/GridContainer" instance=ExtResource("2_55ghd")]
+layout_mode = 2
+
+[node name="slot4" parent="NinePatchRect/GridContainer" instance=ExtResource("2_55ghd")]
+layout_mode = 2
+
+[node name="slot5" parent="NinePatchRect/GridContainer" instance=ExtResource("2_55ghd")]
+layout_mode = 2
+
+[node name="slot6" parent="NinePatchRect/GridContainer" instance=ExtResource("2_55ghd")]
+layout_mode = 2
+
+[node name="slot7" parent="NinePatchRect/GridContainer" instance=ExtResource("2_55ghd")]
+layout_mode = 2
+
+[node name="slot8" parent="NinePatchRect/GridContainer" instance=ExtResource("2_55ghd")]
+layout_mode = 2
+
+[node name="slot9" parent="NinePatchRect/GridContainer" instance=ExtResource("2_55ghd")]
+layout_mode = 2
+
+[node name="slot10" parent="NinePatchRect/GridContainer" instance=ExtResource("2_55ghd")]
+layout_mode = 2
+
+[node name="slot11" parent="NinePatchRect/GridContainer" instance=ExtResource("2_55ghd")]
+layout_mode = 2
+
+[node name="slot12" parent="NinePatchRect/GridContainer" instance=ExtResource("2_55ghd")]
+layout_mode = 2
+
+[node name="slot13" parent="NinePatchRect/GridContainer" instance=ExtResource("2_55ghd")]
+layout_mode = 2
+
+[node name="slot14" parent="NinePatchRect/GridContainer" instance=ExtResource("2_55ghd")]
+layout_mode = 2
+
+[node name="slot15" parent="NinePatchRect/GridContainer" instance=ExtResource("2_55ghd")]
+layout_mode = 2
